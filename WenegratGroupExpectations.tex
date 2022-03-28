@@ -1,0 +1,115 @@
+% DC Manu Scraps
+%\documentclass[11pt]{amsart}
+\documentclass{classassignments}
+%\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+
+
+%\let\tempone\enumerate
+%\let\temptwo\endenumerate
+%\renewenvironment{enumerate}{\tempone\addtolength{\itemsep}{1\baselineskip}}{\temptwo}
+%\let\temponeI\itemize
+%\let\temptwoI\enditemize
+%\renewenvironment{itemize}{\temponeI\addtolength{\itemsep}{0.75\baselineskip}}{\temptwoI}
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+%\title[Reading assignment]{Class readings}
+
+%\date{}                                           % Activate to display a given date or no date
+\fancypagestyle{alim}{\fancyfoot[L]{\textit{Parts of this document are adapted (or directly borrowed) from similar documents written by Dan Chavas (Purdue), Morgan O'Neill (Stanford), , Alison Nugent (UH Manoa), and Leif Thomas (Stanford).}}}
+
+\begin{document}
+	\rhead{Wenegrat group expectations document, updated 9/2020}
+%\maketitle
+
+%\thispagestyle{alim}
+\begin{center}
+	{\Large{\bf Group Expectations}}\\*[3mm]
+\end{center}
+\blfootnote{Parts of this document are adapted (or directly borrowed) from similar documents written by Mariam Aly (Columbia), Dan Chavas (Purdue) , Alison Nugent (UH Manoa), Morgan O'Neill (Stanford), and Leif Thomas (Stanford).}
+\textbf{Welcome!} The purpose of this document is to outline some basic expectations for members of my research group. The intent is not that this will be all-encompassing, but rather that it sets a baseline of expectations, and hopefully sparks further conversations between us during your time here. As such, I expect that this document will evolve in time.\bigskip
+
+\textbf{You should take ownership over your educational and research experience.} This is perhaps the most important expectation to communicate, regardless of career stage. I assume that the primary reason you are here working in my group is to do research on the physics of the ocean, and that what drives and motivates you is a fascination with the research topic you chose within this field. I see my role as \textit{facilitating} that research and educational experience, but ultimately the responsibility for achieving your goals falls on you. At any level (from undergraduate to faculty member) this means taking ownership over both the successes---and failures---of your work.\bigskip
+
+\textbf{Doing science is about learning new things, *and* it is a job.} Part of why you are here is to learn, both through formal pathways such as classes and mentoring, and through independent work on your research project. However, this is also a job, and it is important and healthy to understand that balance. If you are a new graduate student you will be a student for a long time, it is a marathon not a sprint. If you are a postdoc this position is a stepping-stone towards building your career. In my view the most important part of viewing science as a job (among other things) is that it underscores the need for you to think about what you are doing in the context of the \textit{career you want to build}. You should regularly step-back and evaluate your progress, consider how it matches with what you need to meet your career goals, and ask how you can make the most of this time and opportunity. 
+
+\section{Group Culture}
+I expect to lead a group that is collaborative, supportive, open, and encouraging. Group members are colleagues, not competitors, and we all benefit when a group member achieves their goal. I will be as generous as possible with my time, and hope you afford the same generosity to other group members, and others in our department, by sharing your own expertise and experience. I expect that we will foster a learning environment where we all feel safe bringing our questions and admitting the limits of our knowledge, and that all people feel respected for their intelligence regardless of their knowledge of a particular subject. None of this is possible without cultivating a culture of respect and tolerance, and we will not tolerate any verbal or physical harassment or discrimination on the basis of gender, gender identity and expression, sexual orientation, disability, physical appearance, race, or religion. If you ever notice someone being harassed, or discriminated against, or experience it yourself---within our group or outside of it---please let me know immediately. This does not stop with the `big things' but extends also to the `small things' that cumulatively determine whether our workplace feels like a safe, comfortable, and productive place to be. If there is anything that would improve this for you, you can choose to let me know and I will advocate for you.
+
+
+
+
+\section{PhD Students}
+Entering PhD students will receive guidance in choosing and shaping a scientific research project. I will work to make this initial project something that you are excited about, that requires skills you either have or want to gain, and critically has the potential to be impactful to our field. You will be expected to take ownership over this problem, taking the initiative to identify and test new and creative ways of addressing the scientific goal. As you progress further towards your PhD you will also be expected to become increasingly independent as a researcher and scholar, and by year 3 I expect you will be playing an active role in assessing the current state of the field and identifying worthy scientific questions and novel approaches. This can be a challenging transition, and many students find it frustrating when they first start asking questions that \textit{no one can answer yet}. However this is a key part of becoming an independent researcher---a hallmark of the PhD process---and will be important whether you stay in academia or move to the public or private sector. At the time of your doctoral defense you are expected to be the world's leading expert on your scientific question and results, with knowledge that exceeds mine. 
+
+\section{Postdocs}
+As a postdoc you will bring significant research experience and abilities, and will be expected to take a leadership role in your project. We will work together to define your research agenda, which will balance the need for you to make significant progress in a relatively short time-frame, as well as the need for you to do high impact work that will be noticed by the community. As you progress in your postdoc you should look to become the principal intellectual leader of the work, identifying opportunities to extend the work into previously unexplored areas. This progression is important as you look to demonstrate your capability as a future-PI to potential employers. \medskip
+
+For postdocs who would like to stay in academia I highly recommend writing a funding proposal, which is an important experience to have on your CV. In the best case scenario that your proposal is successful, this can also provide you extended postdoc funding and further demonstrate your readiness to be an independent PI. We will work together to determine the right funding opportunity, research topic, and timing for this.\medskip
+
+Finally, I respect and understand the particular challenges that the postdoc position can pose, as you navigate complex career choices in a difficult hiring landscape. I will be a mentor and advocate for you through this process, and respect and support your choices regarding your career and goals. I ask that you do the same for me, by committing to follow through your research projects to publication, even if you ultimately decide to choose another career path for yourself.
+
+\section{Reproducibility and Research Ethics}
+\textbf{Reproducibility:} Making your research results easily reproducible is important way to: accelerate scientific progress for the entire field, increase the impact of your work, and further validate your findings. There are a number of tools that help enhance reproducibility---including python notebooks with documented analysis code and the use of public code repositories such as github.com---and at a minimum you should use these. There are also other internal opportunities for helping with reproducibility, including carefully documenting processes (for example steps you took to configure software packages on the HPC clusters), please document your work in this way so as to help build resources for future members of the group. Moving forward, building better research habits around reproducibility and public code availability is a personal goal of mine, so I welcome your input and suggestions on how we should best achieve this.\bigskip
+
+\noindent\textbf{Ethics:} Research projects sometimes fail. Sometimes completely, and sometimes they just end up being somewhat less than impressive. This is a normal part of research, and something that we all have to learn to accept. The problem comes when failure in research meets perceived pressure to succeed (which can come from either internal or external sources). However, it is absolutely \textit{critical} that we are always transparent in our research, reporting only findings which we have carefully validated, and not over-extending our claims. This is important both for your career, and for the careers of all members of the group, past present and future. Our field is small, and as scientists we rely heavily on our reputation as trustworthy sources of information. If you ever feel pressure (from any source) to \textit{make things work} in a way that does not feel ethical, please let me know immediately and we will find a solution together.\bigskip
+
+\noindent\textbf{Co-authorship and intellectual ownership:} An aspect of research ethics is properly acknowledging the intellectual work that others put in. Whenever you take part in a project in my group your contribution will always be acknowledged in any related publication or presentation. We will discuss the expectations for (co-)authorship credit, however generally as a PhD student or postdoc you will be the primary person responsible for leading a research project through to the final manuscript and hence are expected to be first author. In this case I would be a coauthor for my contributions to the work. In the event that you leave the group with unpublished results, we will discuss a plan and timeline for publication. The expectation for this will be that if, for whatever reason, you are unable to finish the project in a reasonable time frame, you would provide your results (and relevant code) to another group member who would complete the work (in which case you would either be a coauthor on any resulting publication or at minimum acknowledged for your contribution, depending on how much work you contributed to the final product). I also ask that you consider the work that we are jointly developing during your time here as the intellectual property of the \textit{group}, and hence that before you begin any collaborations outside our group, you consult with me so that we can discuss authorship and how the work fits in the context of your existing research projects.
+
+
+\section{Conferences, travel, and career development}
+Students and postdocs \textbf{with new research results} can typically expect to attend 1-2 conferences a year. I also welcome nearly any additional travel that you can get externally funded (via fellowships or conference sponsorship).\medskip
+
+Important conferences that I regularly attend include the AGU Ocean Sciences Meeting (February of even-numbered years), AMS Atmospheric and Oceanic Fluid Dynamics (AOFD, June odd-numbered years), and the Ocean Mixing Gordon Research Conference (June even-numbered years). There are also a variety of 1-off meetings, and workshops, that can be valuable to attend. We can discuss what the right choices are for your research, progress, and career goals.\medskip
+
+There are also a number of student-focused conferences and workshops that can be valuable experience. This includes the Graduate Climate Conference (GCC), the Woods Hole GFD summer school, and other workshops focused on technical development. Keep your eye out for relevant upcoming events. \medskip
+
+We will also work closely together to identify concrete steps that can be taken to build additional skills that you feel will be useful for your achieving your own personal career goals. This might include experience teaching, working with particular technical approaches, or building communication or policy related skill sets. I will bring opportunities to your attention as I become aware of them, but it is important that you play an active role in determining what your career goals are, and what professional development you need to achieve them.  \medskip
+
+ Please note that while the above types of career development activities are a priority, they are \textbf{necessarily dependent on continuing good progress on research}, as your salary is tied to a research grant (with funders who expect a return on their investment). \medskip
+
+\section{Seminars}
+UMD provides a variety of seminar series that provide an important opportunity for expanding our knowledge of the field, and for staying current on developing research areas. I expect that you will attend the AOSC departmental seminars (Thursdays 3:30-4:30PM), these are often quite varied in topics, but provide a chance to broaden your scientific horizon and be an active member of our department. We also hold a monthly `Oceans at UMD' seminar (Tuesdays 12:30PM-1:30PM) that you should attend, with participants from a variety of nearby institutions. Other relevant UMD seminar series are offered through the Burgers Program in Fluid Dynamics, the Center for Scientific Computation \& Mathematical Modeling, and the Applied Mathematics \& Statistics, and Scientific Computing program. Each of these seminars has a mailing list that you should sign up for to stay informed. If you hear of other good seminar series or upcoming lectures please share with the group! Finally, whenever possible you should take advantage of opportunities to meet speakers, 1-1 or in group settings. This can feel daunting at first, but becoming comfortable sharing your research with an outside scientist, or discussing their work, is an important skill to develop, and these meetings are also an important way to build your network and make more people aware of your work.
+
+\section{Administrative}
+\textbf{Work schedule:} I expect that you will work diligently towards the benchmarks appropriate for your degree/goal. While you are nominally expected to work 40 hours/week, this number is much less important than working at whatever pace is necessary to stay-on-track and make satisfactory progress while maintaining a sustainable work-life balance. One nice thing about academia is there is generally room for flexibility in our work schedules. This is particularly true now as members of our group will be working remotely from various time zones. I do not expect everyone to work a set schedule, however I do ask that you are generally available (in office or on-line if remote) during the bulk of the east coast work day. The purpose of this is to make sure that we can communicate efficiently about your work, and for you to become an active member of the AOSC community. This policy, emphasizing flexibility in work schedules, is dependent on continuing good progress. If it starts seeming like a more structured work schedule would be beneficial we will discuss and come up with a plan together.\bigskip
+
+\textbf{Vacation and sick days:} You are entitled to a number of paid sick days and paid holidays (see university policies). In the case you are sick and will be taking time off (take care of yourself!) please let me know so that I can stay informed about how you are doing. I highly encourage you to take advantage of vacation days (recharging is important). However, please discuss schedule with me at least 2 weeks before any planned vacation exceeding 3 days. Shorter vacations don't need prior approval, but please let me know as soon as possible all days that you will not be working so that I can keep track.\bigskip
+
+\textbf{Weekly updates:} We will plan on having 1-1 meetings most weeks. To make this as efficient as possible, please email me the night before with a brief summary of what you have been working on (include any relevant figures or results), any specific questions you would like to discuss, and some ideas for what you think your plan for the coming week should be. This will give you an opportunity to step-back and think about how things are going, and will give me a chance to prepare for our meeting (including thinking through any particularly tricky issues you might be facing!). \bigskip
+
+\textbf{Group meetings:} We will have weekly group meetings. This is a chance to get to know your colleagues, learn about the work they are doing, and to get feedback and ideas for your own work. Please come to these prepared to give a brief update on your work. This should take the form of a short high-level re-introduction to your research topic (this can become more brief over time, but recall that not every group member will be deeply familiar with your topic), an update on what specifically you have been working on, and any interesting results (or tricky problems) that you have encountered. Group meetings can also be used as an opportunity to get feedback on practice talks, or writing, and we may also sometimes use it as a `journal club' to discuss important papers. 
+
+\section{What you can expect from me}
+\begin{itemize}
+	\item I will provide you with scientific and professional 	guidance that furthers your progress towards \textbf{your} professional goals.
+	\item I will respect your professional goals, whether they are directed towards academia, non/governmental work, or the private sector.
+	\item I will help steer your work towards topics and ideas that I think are important and will be impactful in our field.
+	\item I will treat all members of our group respectfully and fairly.
+	\item I will strive to not be a bottleneck in your progress, including providing prompt comments on manuscripts and presentations.
+	\item I will be available to meet frequently for discussion, questions, and advice (most generally at least once a week).
+	\item I will  attempt to adjust my advising approach towards what is best for you, and will accept advice and constructive criticism, without taking offense, about my duties as an advisor.
+	\item I will always give credit where it is due, in both publications and presentations of our group's work.
+	\item I will make sure that you have opportunities to grow your professional network.
+	\item I will be available as a life-long mentor to the extent that you choose to engage me in that role.
+\end{itemize}
+
+\section{Yearly evaluation}\label{sec:Yearly}
+While I will provide ongoing feedback through our regular weekly 1-1 meetings, I will also meet 1-1 with every member of my group \textit{at least} annually to perform a more formal progress evaluation and to chart goals for the coming year. Before this meeting I will send you a list of specific questions to consider and answer that will guide our conversation. This will include asking you to assess your progress, identify areas of strengths/weakness, and to set specific goals for the coming year. This is an opportunity to step-back from the day-to-day of research, reflect on your career trajectory, and assess how you are progressing towards your goals. For an early PhD student this might be completing classes and working towards your PhD candidacy, for a postdoc this might be finishing new publications and working towards a permanent position. During this meeting I will provide you my feedback, and we will work together to define a plan of action for the next year. I also encourage you to use this as an opportunity to provide me with any feedback about how I can make your time in my group more fulfilling and productive. 
+
+%\begin{thebibliography}{}
+%
+%\bibitem{AM}{
+%McWilliams, J.C. and E. Huckle (2006), Ekman Layer Rectification, Journal of Physical Oceanography, 36 (8).
+%}
+%
+%\end{thebibliography}
+%\clearpage
+ %\bibliographystyle{ametsoc2014}
+ %\bibliography{review}
+
+\end{document}
